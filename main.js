@@ -41,9 +41,7 @@
     var Thread = (function() {
 
         function Thread(threadData) {
-            var _this = this;
-
-            this.children = new Array();
+            this.children = [];
             this.threadData = threadData.data;
 
             var temp = document.createElement("div");
