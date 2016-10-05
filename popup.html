@@ -1,15 +1,17 @@
 <!doctype html>
 <html>
-  <head>
-    <title>RFinder</title>
-	<link href="//fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
-    <style>
+
+<head>
+	<title>RFinder</title>
+	<link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+	<style>
 		body {
-    	font-family: 'Open Sans', sans-serif;
+			font-family: 'Open Sans', sans-serif;
 			font-size: 100%;
 			width: 600px;
 			height: 500px;
 		}
+
 		#status {
 			white-space: pre;
 			text-overflow: ellipsis;
@@ -22,9 +24,9 @@
 			border-radius: 5px;
 		}
 
-
-		.title{
+		.title {
 			font-size: 120%;
+		    padding-top: 20px;
 		}
 
 		.comments {
@@ -52,41 +54,44 @@
 			top: 0px;
 			left: 3px;
 		}
+
 		span.minimizer {
 			font-size: 90%;
 			cursor: pointer;
 		}
 
 		.tab {
-    display: block;
-    display: inline-block;
-    padding: 10px;
-    border: 1px solid #B5B5B5;
-    background: #FFFFFF;
-    margin-left: -1px;
-    margin-top: -1px;
-    cursor: pointer;
-}
+			display: block;
+			display: inline-block;
+			padding: 10px;
+			border: 1px solid #B5B5B5;
+			background: #FFFFFF;
+			margin-left: -1px;
+			margin-top: -1px;
+			cursor: pointer;
+		}
 
-		.tab:first-child{
+		.tab:first-child {
 			border-top-left-radius: 3px;
 		}
-		.tab:last-child{
+
+		.tab:last-child {
 			border-top-right-radius: 3px;
 		}
+
 		.tab:hover {
 			background: #F1F1F1;
 		}
-    </style>
-     <script src="snuowned.js"></script>
-    <script src="main.js"></script>
-  </head>
-  <body>
-  <div id="tabs">
-  	<div id="tabs-container"></div>
-  </div>
-   <div id="stories">
-   </div>
+	</style>
+	<script src="snuowned.js"></script>
+	<script src="main.js"></script>
+</head>
 
-  </body>
+<body>
+	<div id="tabs">
+		<div id="tabs-container"></div>
+	</div>
+	<div id="stories">
+	</div>
+</body>
 </html>
